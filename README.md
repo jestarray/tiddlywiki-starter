@@ -15,14 +15,13 @@ If you have a domain you want to direct to, put CNAME into the output folder.
 ## Deploying
 
 1. Build index on change
-2. create gh-pages subtree and push
-
-```git subtree push --prefix myjournal/output origin gh-pages```
-
-3. Commit changes to master branch and push
+2. Commit changes to master branch and push
 
 ```git push -u origin master```
 
+3. create gh-pages subtree and push
+
+```git subtree push --prefix myjournal/output origin gh-pages```
 
 
 Notes: 
